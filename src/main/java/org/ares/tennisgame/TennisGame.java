@@ -20,6 +20,6 @@ public class TennisGame {
     }
 
     public String getScore() {
-        return Arbitre.determinerResultat(player1, player2).printScoreAsText();
+        return Arbitre.determinerResultat(player1, player2).get();
     }
 }
